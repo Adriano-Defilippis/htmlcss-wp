@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: arial;
+  font-family: Optima, sans-serif;
 }
 
 body{
@@ -26,6 +26,12 @@ header{
   margin-bottom: 1%;
 }
 
+.header-img{
+  background-image: url("immagini/default-header.jpeg");
+  width: 100%;
+  height: 100%;
+}
+
 .title{
   /* text-align: center; */
   color: white;
@@ -47,8 +53,9 @@ header{
 
 
 .title h3{
+  color: white;
   font-size: 28px;
-  /* display: block; */
+  display: block;
   position: absolute;
   top: 90%;
   left: 50%;
