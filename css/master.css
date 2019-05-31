@@ -46,16 +46,10 @@ main{
   background: yellowgreen;
 }
 
-main::after{
-  content: "";
-  display: table;
-  clear: both;
-}
-
 main aside{
   float: left;
   width: 25%;
-  height: 400px;
+  /* height: 400px; */
   background: blue;
 }
 
@@ -81,4 +75,16 @@ footer{
   margin: auto;
   width: 90%;
   background: white;
+}
+
+.right article{
+  float: right;
+  width: 90%;
+  background: white;
+}
+
+main::after{
+  content: "";
+  display: table;
+  clear: both;
 }
