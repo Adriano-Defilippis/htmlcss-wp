@@ -9,8 +9,30 @@ body{
 }
 
 .contentBox{
-  margin: auto;
+  margin: 10% auto;
   height: 1200px;
   width: 80%;
   background: white;
+}
+
+header{
+  position: relative;
+  width: 100%;
+  height: 250px;
+  background: black;
+}
+
+.header-img{
+  position: absolute;
+  width: 100%;
+  height: 85%;
+  border: solid 6px white;
+}
+
+nav{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 15%;
+  background: red;
 }
