@@ -10,9 +10,9 @@ body{
 
 .contentBox{
   margin: 10% auto;
-  height: 1200px;
+  /* height: 1200px; */
   width: 80%;
-  background: white;
+  /* background: white; */
 }
 
 header{
@@ -20,6 +20,7 @@ header{
   width: 100%;
   height: 250px;
   background: black;
+  margin-bottom: 1%;
 }
 
 .header-img{
@@ -40,6 +41,7 @@ nav{
 main{
   position: relative;
   width: 100%;
+  margin-bottom: 2%;
   /* height: 200px; */
   background: yellowgreen;
 }
@@ -60,6 +62,23 @@ main aside{
 .center{
   float: left;
   width: 50%;
-  height: 200px;
+  /* height: 200px; */
   background: orange;
+}
+
+footer{
+  width: 100%;
+  height: 100px;
+  background: black;
+}
+
+.left article{
+  width: 90%;
+  background: white;
+}
+
+.center article{
+  margin: auto;
+  width: 90%;
+  background: white;
 }
