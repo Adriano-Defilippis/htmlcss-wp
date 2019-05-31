@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: arial;
 }
 
 body{
@@ -66,21 +67,25 @@ footer{
   background: black;
 }
 
-.left article{
+/* Classi generali per gli articoli delle colonne */
+article{
   width: 90%;
   background: white;
+  margin-bottom: 10%;
+}
+
+.left article{
+
 }
 
 .center article{
   margin: auto;
-  width: 90%;
-  background: white;
+
 }
 
 .right article{
   float: right;
-  width: 90%;
-  background: white;
+
 }
 
 main::after{
