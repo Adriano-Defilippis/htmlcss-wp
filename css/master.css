@@ -44,26 +44,26 @@ main{
   width: 100%;
   margin-bottom: 2%;
   /* height: 200px; */
-  background: yellowgreen;
+  /* background: yellowgreen; */
 }
 
 main aside{
   float: left;
   width: 25%;
   /* height: 400px; */
-  background: blue;
+  /* background: blue; */
 }
 
 .center{
   float: left;
   width: 50%;
   /* height: 200px; */
-  background: orange;
+  /* background: orange; */
 }
 
 footer{
   width: 100%;
-  height: 100px;
+  height: 150px;
   background: black;
 }
 
