@@ -132,6 +132,7 @@ footer{
 
 /* Classi generali per gli articoli delle colonne */
 article{
+  position: relative;
   padding: 20px;
   border-radius: 5px;
   width: 90%;
@@ -171,9 +172,16 @@ main::after{
 }
 
 .linkList .row{
+  /* height: 10px; */
+  width: 70%;
   display: block;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
+}
 
+.linkList .row::after{
+  content: "";
+  display: table;
+  clear: both;
 }
 
  .left .linkList a{
@@ -186,14 +194,16 @@ main::after{
 }
 
 .left .linkList h1{
-  display: inline;
-  margin-bottom: 40px;
+  /* float: right; */
+  display: block;
+  position: relative;
+  left: 10%;
 }
 
-.linkList .row i{
+.linkList .row .linklist-ico{
+  height: 100%;
   float: left;
-  display: inline-block;
+  display: block;
   position: relative;
-  top: 1%;
-  margin-right: 5px;
+  top: 50%;
 }
