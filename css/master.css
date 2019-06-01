@@ -170,7 +170,30 @@ main::after{
   clear: both;
 }
 
-.linkList a{
+.linkList .row{
+  text-align: center;
+
+}
+
+ .left .linkList a{
   display: block;
-  margin-bottom: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+  color: green;
+}
+
+.left .linkList h1{
+  float: left;
+  display: inline;
+  margin-bottom: 40px;
+}
+
+.linkList .row i{
+  float: left;
+  display: inline-block;
+  position: relative;
+  top: 1%;
+  margin-right: 5px;
 }
