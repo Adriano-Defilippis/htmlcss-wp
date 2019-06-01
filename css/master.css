@@ -154,10 +154,6 @@ article p{
   line-height: 32px;
 }
 
-.left article{
-
-}
-
 .center article{
   margin: auto;
 
@@ -172,4 +168,9 @@ main::after{
   content: "";
   display: table;
   clear: both;
+}
+
+.linkList a{
+  display: block;
+  margin-bottom: 20px;
 }
