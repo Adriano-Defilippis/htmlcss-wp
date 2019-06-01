@@ -87,10 +87,10 @@ main{
 }
 
 nav .menu-index{
+  padding: 1%;
   float: left;
   height: 100%;
   display: inline-block;
-  margin: 0 auto;
   width: 14.2%;
   background: #666666;
 }
@@ -111,14 +111,14 @@ nav a{
 
 main aside{
   float: left;
-  width: 25%;
+  width: 20%;
   /* height: 400px; */
   /* background: blue; */
 }
 
 .center{
   float: left;
-  width: 50%;
+  width: 60%;
   /* height: 200px; */
   /* background: orange; */
 }
@@ -132,21 +132,22 @@ footer{
 
 /* Classi generali per gli articoli delle colonne */
 article{
-  padding: 5%;
+  padding: 20px;
   border-radius: 5px;
   width: 90%;
   background: white;
   margin-bottom: 10%;
 }
 
-article h2{
+.center article h1{
   text-transform: uppercase;
+  font-size: 2em;
+  text-shadow: 2px 2px lightgrey;
 }
 
-article h2, h3{
+article h1{
+  margin-bottom: 40px;
   color: #504741;
-  line-height: 32px;
-
 }
 
 article p{
