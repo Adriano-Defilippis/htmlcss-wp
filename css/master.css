@@ -191,15 +191,18 @@ main::after{
   display: inline;
   position: relative;
   left: 10%;
+  /* margin-top: -15%; */
+  margin-left: 9%;
 }
 
-.linkList .row .linklist-ico{
-  height: 100%;
-  width: 100%;
+.linkList .linklist-ico{
+  /* height: 100%;
+  width: 100%; */
   float: left;
   display: inline;
-  position: relative;
-  top: 50%;
+  position: absolute;
+  top: 5%;
+
 }
 
 footer{
@@ -226,4 +229,17 @@ footer .copyR{
   left: 50%;
   transform: translate(-50%, -50%);
 
+}
+
+.contact{
+  margin: 0 auto;
+}
+
+#gitHub{
+  height: 20px;
+  width: 20px;
+}
+
+#gitHub i{
+  background-size: cover;
 }
