@@ -29,9 +29,12 @@ header{
 }
 
 .header-img{
-  background-image: url("immagini/default-header.jpeg");
+  position: absolute;
   width: 100%;
-  height: 100%;
+  height: 360px;
+  border: solid 6px white;
+  background-image: url("immagini/default-header.jpeg");
+  background-size: cover;
 }
 
 .title{
@@ -64,19 +67,15 @@ header{
   transform: translate(-50%, -50%);
 }
 
-.header-img{
-  position: absolute;
-  width: 100%;
-  height: 360px;
-  border: solid 6px white;
-}
+
 
 nav{
+  text-align: center;
   position: absolute;
   bottom: 0;
   width: 100%;
   height: 40px;
-  background: #666666;
+  /* background: #666666; */
 }
 
 main{
@@ -85,6 +84,29 @@ main{
   margin-bottom: 2%;
   /* height: 200px; */
   /* background: yellowgreen; */
+}
+
+nav .menu-index{
+  float: left;
+  height: 100%;
+  display: inline-block;
+  margin: 0 auto;
+  width: 14.2%;
+  background: #666666;
+}
+
+nav p{
+  font-size: 12px;;
+  text-transform: uppercase;
+  /* display: block;
+  position: relative;
+  top: 35%;
+  margin: 0 auto; */
+}
+
+nav a{
+  text-decoration: none;
+  color: white;
 }
 
 main aside{
@@ -149,26 +171,4 @@ main::after{
   content: "";
   display: table;
   clear: both;
-}
-
-.menu-index{
-  float: left;
-  text-align: center;
-  height: 100%;
-  width: 14.2%;
-  background: #666666;
-}
-
-nav p{
-  font-size: 12px;;
-  text-transform: uppercase;
-  display: block;
-  position: relative;
-  top: 35%;
-  margin: 0 auto;
-}
-
-nav a{
-  text-decoration: none;
-  color: white;
 }
