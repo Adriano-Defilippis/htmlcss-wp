@@ -219,6 +219,12 @@ footer .copyR{
   border-bottom: solid 2px grey;
 }
 
+footer:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .copyR p{
   text-align: center;
   font-style: italic;
@@ -231,16 +237,32 @@ footer .copyR{
 
 }
 
+i {
+  display: inline;
+}
+
 .contact{
-  padding: 2% 15%;
   width: 100%;
-  height: 60%;
+  display: inline-block;
+  position: relative;
+
+
+}
+
+.contact::after{
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .iconeSocial{
+  text-align: center;
   float: left;
   display: inline-block;
-  position: relative;
-  margin: 2% 14%;
+  margin: 4% 14%;
+
+
+
+
 
 }
